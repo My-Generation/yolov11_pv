@@ -1,0 +1,24 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+# African-wildlife dataset by Ultralytics
+# Documentation: https://docs.ultralytics.com/datasets/detect/african-wildlife/
+# Example usage: yolo train data=african-wildlife.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── african-wildlife  ← downloads here (100 MB)
+
+#train: train/images 
+#val: valid/images 
+#test: test/images 
+train: BrokenSolarPanelDetection_test\train\images
+val: BrokenSolarPanelDetection_test\valid\images
+test: BrokenSolarPanelDetection_test\test\images
+
+# number of classes
+nc: 5
+
+# Classes
+names: ['broken', 'dirty', 'powdery', 'stronger','leaf']
+
+
